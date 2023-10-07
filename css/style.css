@@ -40,14 +40,40 @@ header {
 
 /* Gallery section */
 #gallery {
-    border: 2px solid #601a35
+    border: 2px solid #601a35;
 }
 
 #gallery img {
     max-height: 10px;
-    max-width:100%;
+    max-width:40rem;
+    margin:0 auto;
 }
 
 #gallery figure {
     text-align:center;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #601a35;
+    margin-bottom:2rem;
+}
+
+#lit div p {
+    padding:0.3rem;
+    max-width: 40rem;
+}
+
+#lit div p :first-letter {
+    color:black;
+    float: left;
+    font-size: 3em;
+    padding: .25em; 
+    margin-right: .25em;
+    line-height: .65;
+    border:4px outset #601a35;
+    text-shadow: 2px 2px 3px #000(0,0,0,.5);
+    box-shadow:5px 5px 5px #000(0,0,0.5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
 }
