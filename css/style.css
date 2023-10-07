@@ -44,8 +44,8 @@ header {
 }
 
 #gallery img {
-    max-height: 10px;
-    max-width:40rem;
+    max-height: 100px;
+    max:width 40px;;
     margin:0 auto;
 }
 
