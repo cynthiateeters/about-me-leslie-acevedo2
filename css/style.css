@@ -33,7 +33,7 @@ header {
 }
 
 /* Hobbies section */
-#bio ul li:nth-child(even) {
+#bio ul li {
     color:black;
     text-align:center;
 }
