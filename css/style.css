@@ -28,13 +28,14 @@ header {
 /* Bio section */
 
 #bio {
-    text-align: center;
+    text-align:center;
 
 }
 
 /* Hobbies section */
 #bio ul li:nth-child(even) {
-    color:black
+    color:black;
+    text-align:center;
 }
 
 /* Gallery section */
@@ -43,7 +44,8 @@ header {
 }
 
 #gallery img {
-    max-width:100%;
+    max-height: 10px;
+    max-width:135%;
 }
 
 #gallery figure {
