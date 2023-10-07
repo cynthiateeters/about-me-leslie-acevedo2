@@ -45,7 +45,7 @@ header {
 
 #gallery img {
     max-height: 10px;
-    max-width:135%;
+    max-width:100%;
 }
 
 #gallery figure {
