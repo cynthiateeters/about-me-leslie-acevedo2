@@ -7,7 +7,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 font-family:"righteous";
-font-size:30pt;
+font-size:40pt;
+text-align:center;
 }
 
 header {
@@ -24,4 +25,8 @@ header {
 
 #bio {
     text-align: center;
+
+}
+#bio ul li:nth-child(even) {
+    color:black
 }
