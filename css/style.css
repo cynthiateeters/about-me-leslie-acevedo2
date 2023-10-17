@@ -81,7 +81,7 @@ header {
 
 #lit div p:nth-child(3+1):first-letter {
     color:black;
-    background-image:radial-gradient(#fff);
+    background-image:radial-gradient(#fff,#D8BFD8);
     float: left;
     font-size: 3em;
     padding: .25em; 
