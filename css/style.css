@@ -77,14 +77,18 @@ header {
     clear:both;
 }
 
-#lit div p :first-letter {
+/* dropcaps */
+
+#lit div p:nth-child(3+1):first-letter {
     color:black;
+    background-image:radial-gradient(#fff);
     float: left;
     font-size: 3em;
     padding: .25em; 
     margin-right: .25em;
     line-height: .65;
     border:4px outset #601a35;
+    font-family:Franklin Gothic Medium;
     text-shadow: 2px 2px 3px #000(0,0,0,.5);
     box-shadow:5px 5px 5px #000(0,0,0.5);
     border-top-left-radius: .2em;
