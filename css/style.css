@@ -1,7 +1,7 @@
 body {
     font-family:comfortaa;
     background-color: #E8E8E8;
-    color: #FDA4BA;
+    color: #E37383;
     font-style: italic;
 }
 
@@ -71,8 +71,10 @@ header {
 }
 
 #lit div p {
-    padding:0.3rem;
+    padding:2rem;
     max-width: 40rem;
+    margin: 0:auto;
+    clear:both;
 }
 
 #lit div p :first-letter {
