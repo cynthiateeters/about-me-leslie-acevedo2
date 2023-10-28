@@ -13,7 +13,7 @@ text-align:center;
 }
 h2 {
     margin: .1em;
-  }
+}
 
 header {
     text-align: center;
@@ -116,6 +116,11 @@ figure img {
 #lit div {
     max-width:100%;
     columns: 20rem;
+}
+
+video {
+    max-width:100%;
+    align-items: center;
 }
 }
 
