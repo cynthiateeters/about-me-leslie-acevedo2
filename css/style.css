@@ -126,7 +126,7 @@ figure img {
 }
 #my video {
     display:flex;
-    border: 2px solid #601a35;
+    border: 4px solid #601a35;
     max-width:100%;
     justify-content: center;
     align-items: center;
