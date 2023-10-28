@@ -118,7 +118,7 @@ figure img {
     columns: 20rem;
 }
 
-video {
+#my video {
     max-width:100%;
     align-items: center;
 }
