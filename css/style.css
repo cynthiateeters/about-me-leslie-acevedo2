@@ -121,6 +121,7 @@ figure img {
 #my video {
     max-width:100%;
     align-items: center;
+    max-height:400px;
 }
 }
 
