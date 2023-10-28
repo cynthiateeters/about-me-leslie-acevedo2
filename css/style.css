@@ -85,6 +85,7 @@ header {
 /*my video */
 
 #my video {
+    border: 2px solid #601a35;
     max-width:100%;
     align-items: center;
     max-height:400px;
