@@ -124,7 +124,7 @@ figure img {
     max-width:100%;
     columns: 20rem;
 }
-#my video {
+#video {
     display:flex;
     border: 4px solid #601a35;
     max-width:100%;
@@ -154,7 +154,7 @@ figure img {
         display: block;;
     }
 
-    #my video {
+    #video {
         display:center;
     }
 }
