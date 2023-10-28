@@ -82,6 +82,13 @@ header {
     margin: 0:auto;
     clear:both;
 }
+/*my video */
+
+#my video {
+    max-width:100%;
+    align-items: center;
+    max-height:400px;
+}
 
 /* dropcaps */
 
@@ -124,11 +131,6 @@ figure img {
     columns: 20rem;
 }
 
-#iframe {
-    max-width:100%;
-    align-items: center;
-    max-height:400px;
-}
 }
 
 /* large screen size */
