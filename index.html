@@ -123,7 +123,7 @@
 
     <h2>Contact Us:</h2>
 
-    <form id="contactForm" name="contactForm">
+    <form id="contactForm" name="contactForm" metho="post" data-netlify="true">
 
         <fieldset>
             <legend>Contact Form</legend>
@@ -160,11 +160,11 @@
 
                     <ul>
                         <li>
-                            <input type="radio" id="message-yes" name="reply">
+                            <input type="radio" id="message-yes" name="reply" value="Yes a reply please.">
                             <label for="message-yes">Yes a reply would be nice.</label>
                         </li>
                         <li>
-                            <input type="radio" id="message-no" name="reply" checked>
+                            <input type="radio" id="message-no" name="reply" value="No reply please."checked>
                             <label for="message-no">No, Thanks.</label>
                         </li>
                     </ul>
