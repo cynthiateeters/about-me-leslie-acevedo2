@@ -158,3 +158,8 @@ figure img {
         display:center;
     }
 }
+/* Contact Form */
+
+#formElements {
+    display: grid;
+}

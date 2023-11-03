@@ -129,14 +129,52 @@
             <legend>Contact Form</legend>
         
             <div id="formElements">
-            <!--Name-->
-                <label for="name"> Name (required)</label>
-                <input text="text" id=""name name="name" required>
+                <!--Name-->
+                    <label for="name"> Name (required)</label>
+                    <input text="text" id=""name name="name" required>
 
-            <!--Email-->
-                <label for="email"> Email (required)</label>
-             <input text="text" id=""email email="email" required>
-        </div>
+                <!--Email-->
+                    <label for="email"> Email (required)</label>
+                    <input text="text" id=""email name="email" required>
+        
+                <!--Phone-->
+                <label for="phone"> Phone (optional)</label>
+                <input text="tell" id=""phone name="phone">
+
+                <!--Phone Type-->
+                <label for="phonetype">Phone type (optional)</label>
+                <select id="phonetype" name="phonetype">
+                    <option value="" selected>Select phone type</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+                </select>
+
+                <!--Message-->
+                <label for="message">Message (optional)</label>
+                <textarea id="message" name="message" romw="8"></textarea>
+
+                <!--Reply-->
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="message-yes" name="reply">
+                            <label for="message-yes">Yes a reply would be nice.</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="message-no" name="reply" checked>
+                            <label for="message-no">No, Thanks.</label>
+                        </li>
+                    </ul>
+            
+                </fieldset>
+
+                <!--sumbit-->
+                <button type="submit">Send</button>
+
+            </div>
         
         </fieldset>
     </form>
