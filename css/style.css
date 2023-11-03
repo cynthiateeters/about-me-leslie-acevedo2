@@ -201,4 +201,7 @@ legend {
     background-color:#E75480;
     color:white;
     border: 1px solid #601a35;
+    max-width: 400px;
+    width:50%;
+    justify-self: center;
 }
