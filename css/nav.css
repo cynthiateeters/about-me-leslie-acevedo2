@@ -25,12 +25,12 @@ main {
 /* navbar */
 
 .navbar {
-    background-color:#ecf1ef; 
+    background-color:#ECF1EF; 
     color:black; 
     display:flex;
     flex-direction: column;
     font-size: 1.5rem;
-    margin-bottom: 1rem;;
+    margin-bottom: 1rem;
 }
 
 /* logo */
@@ -52,18 +52,22 @@ main {
 
 /* navigation list */
 
+.navbar-links li {
+list-style: none;
+display: block;
+padding: 0.5em 0;
+}
 
-/*  
- style all a tags in header 
- and then on hover
-*/
+/* style all a tags in header and then on hover */
 
+.navbar-links a {
+    color: black;
+    background-attachment: #ECF1EF;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
-
-
-
-/* 
-media query for non-mobile nav bar
-min-width set to width of nav elements 
-such that no text wraps 
-*/
+/* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
