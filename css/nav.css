@@ -27,6 +27,10 @@ main {
 .navbar {
     background-color:#ecf1ef; 
     color:black; 
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;;
 }
 
 /* logo */
