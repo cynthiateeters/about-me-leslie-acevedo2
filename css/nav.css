@@ -24,7 +24,10 @@ main {
 
 /* navbar */
 
-
+.navbar {
+    background-color:bisque;
+    color:black;
+}
 
 /* logo */
 
