@@ -58,15 +58,15 @@ header {
 }
 
 #gallery img {
-    max-height:400px;
+/*     max-height:400px; */
     max-width: 620px;
 }
 
-#gallery figure {
+figure {
     text-align:center;
 
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 /* Literature */
